@@ -26,6 +26,6 @@ public class FindMaxValue {
     public static void main(String[] args) {
         System.out.println("Welcome To The Program To Find Maximum Value Using Generics");
         Float a = 50.8f, b = 59.6f, c = 55.3f;
-        System.out.println("The Maximum Integer Value is : " +testMaximum(a,b,c));
+        System.out.println("The Maximum Float Value is : " +testMaximum(a,b,c));
     }
 }
