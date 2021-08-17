@@ -8,15 +8,15 @@ package com.bridgelabz;
  */
 public class FindMaxValue {
     /**
-     * This method is used to compare the three float type values and
+     * This method is used to compare the three string type values and
      * get the maximum value
      * @param a This is the first parameter
      * @param b This is the second parameter
      * @param c This is the third parameter
      * @return maximum of three parameters
      */
-    public static Float testMaximum(Float a, Float b, Float c) {
-        Float max = a;
+    public static String testMaximum(String a, String b, String c) {
+        String max = a;
         if (b.compareTo(max) > 0)
             max = b;
         if (c.compareTo(max) > 0)
@@ -25,7 +25,7 @@ public class FindMaxValue {
     }
     public static void main(String[] args) {
         System.out.println("Welcome To The Program To Find Maximum Value Using Generics");
-        Float a = 50.8f, b = 59.6f, c = 55.3f;
+        String a = "Mango", b = "Orange", c = "Pineapple";
         System.out.println("The Maximum Integer Value is : " +testMaximum(a,b,c));
     }
 }
