@@ -6,7 +6,15 @@ package com.bridgelabz;
  * @version 11.0.11
  * @since 2021-08-17
  */
-public class FindMaxValue {
+public class FindMaxValue <E extends Comparable<E>> {
+    E a, b, c;
+
+    public FindMaxValue(E a, E b, E c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
     /**
      * This method is used to compare the three  type of values and
      * get the maximum values by using Generics
